@@ -75,7 +75,7 @@ print("检测结果:", class_info)
 
 #### 可视化图像
 - 输出示例：
-  ![检测结果示例](https://github.com/danel-phang/BiliCoin/images/output.jpg)
+  ![检测结果示例](https://github.com/danel-phang/BiliCoin/tree/images/output.jpg)
 
 #### 结构化数据
 返回字典格式的检测结果：
@@ -99,5 +99,5 @@ print("检测结果:", class_info)
 | Precision      | 0.97   | 查准率                        |
 | Recall         | 0.97   | 查全率                        |
 
-![核心指标](https://github.com/danel-phang/BiliCoin/images/results.png)
+![核心指标](https://github.com/danel-phang/BiliCoin/tree/images/results.png)
 ---
