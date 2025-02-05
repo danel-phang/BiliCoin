@@ -30,7 +30,7 @@ pip install onnxruntime opencv-python numpy
 | bili_coin.pt     | 5.22 MB | 
 
 
-[模型下载地址](https://example.com/model_download)
+[模型下载地址](https://github.com/danel-phang/BiliCoin/releases/tag/models)
 
 
 ## 快速开始
@@ -40,19 +40,19 @@ from bilicoin import BiliCoin
 
 # 初始化检测器
 model = BiliCoin(
-    onnx_model="bili_coin.onnx",
+    onnx_model="models\\bili_coin.onnx",
     cpu=True  # CPU推理
 )
 
 # 执行检测
 result_img, class_info = model.detect(
-    input_image="video_screenshot.png",
-    confidence_thres=0.6,  # 置信度阈值
+    input_image="images\\test.png",
+    confidence_thres=0.5,  # 置信度阈值
     iou_thres=0.45         # IoU阈值
 )
 
 # 保存结果
-cv2.imwrite("detection_result.jpg", result_img)
+cv2.imwrite("images\\output.jpg", result_img)
 print("检测结果:", class_info)
 ```
 
