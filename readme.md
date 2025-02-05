@@ -75,7 +75,10 @@ print("检测结果:", class_info)
 
 #### 可视化图像
 - 输出示例：
-  ![output](https://tvax3.sinaimg.cn/large/008A9mE2gy1hy9v7596loj31fn0t07ag.jpg)
+
+<p align="center">
+  <img src="https://tvax3.sinaimg.cn/large/008A9mE2gy1hy9v7596loj31fn0t07ag.jpg" alt="output">
+</p>
 
 #### 结构化数据
 返回字典格式的检测结果：
@@ -99,5 +102,8 @@ print("检测结果:", class_info)
 | Precision      | 0.97   | 查准率                        |
 | Recall         | 0.97   | 查全率                        |
 
-![核心指标](https://tvax1.sinaimg.cn/large/008A9mE2gy1hy9v6rgw5tj31uo0xcqlt.jpg)
+<p align="center">
+  <img src="https://tvax1.sinaimg.cn/large/008A9mE2gy1hy9v6rgw5tj31uo0xcqlt.jpg" alt="核心指标">
+</p>
+
 ---
